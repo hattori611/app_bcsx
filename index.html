@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự Án Web Mẫu</title>
+    <!-- Tải Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Thêm font Inter cho đẹp mắt */
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+    <!-- Import font Inter -->
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="container mx-auto p-4 max-w-2xl">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl overflow-hidden">
+            
+            <!-- Phần Header -->
+            <div class="bg-gradient-to-r from-blue-500 to-indigo-600 p-8">
+                <h1 class="text-4xl font-bold text-white text-center">
+                    Dự Án Web của Tôi
+                </h1>
+                <p class="text-center text-blue-100 text-lg mt-2">
+                    Một trang web mẫu sẵn sàng để triển khai lên Vercel!
+                </p>
+            </div>
+
+            <!-- Phần Nội dung -->
+            <div class="p-8">
+                <h2 class="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Chào mừng bạn!</h2>
+                <p class="text-lg mb-4 leading-relaxed">
+                    Đây là một dự án web đơn giản chỉ dùng tệp <code class="bg-gray-200 dark:bg-gray-700 p-1 rounded text-sm font-mono">index.html</code>.
+                    Vercel sẽ tự động nhận diện và triển khai trang này dưới dạng một trang web tĩnh (Static Site).
+                </p>
+                <p class="text-lg leading-relaxed">
+                    Bây giờ, bạn hãy thử thực hiện theo các bước trong tệp hướng dẫn:
+                </p>
+
+                <ul class="list-disc list-inside mt-4 space-y-2 text-lg">
+                    <li>Tạo một kho lưu trữ mới trên <span class="font-semibold">GitHub</span>.</li>
+                    <li>Đẩy (push) tệp <code class="bg-gray-200 dark:bg-gray-700 p-1 rounded text-sm font-mono">index.html</code> này lên.</li>
+                    <li>Kết nối kho lưu trữ đó với <span class="font-semibold">Vercel</span>.</li>
+                    <li>Xem trang web của bạn được triển khai tự động!</li>
+                </ul>
+
+                <div class="mt-8 text-center">
+                    <a href="https://vercel.com/new" target="_blank" class="inline-block bg-black text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-800 transition-colors duration-300">
+                        Bắt đầu Deploy trên Vercel
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
